@@ -390,6 +390,19 @@ h6, .h6 {
   font-size: 1rem;
 }
 
+#language-needs-margin {
+    padding-left: 170px;
+}
+
+#library-framework-needs-margin {
+    padding-left: 130px;
+}
+
+.tik {
+    color: #000;
+    border-color: #000;
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;

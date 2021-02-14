@@ -436,16 +436,18 @@ h6, .h6 {
     color: #d9d9d9;
 }
 
-.modal-text {
-    color: #3c6e71;
+.change-text-color {
+    color: #51A3A8;
+    /* color: #3c6e71; */
 }
 
 .modal-one {
-    color: #fff;
+    color: #d9d9d9;
 }
 
 .modal-bg {
     background-color: #343a40;
+    border-radius: 0.75rem;
     color: #d9d9d9;
 }
 
@@ -2036,7 +2038,7 @@ pre code {
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
-  background-color: #fff;
+  background-color: #d9d9d9;
   background-clip: padding-box;
   border: 0.125rem solid #ced4da;
   border-radius: 0.5rem;
@@ -2057,7 +2059,7 @@ pre code {
 }
 .form-control:focus {
   color: #495057;
-  background-color: #fff;
+  background-color: #d9d9d9;
   border-color: #6bebd1;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(26, 188, 156, 0.25);
@@ -2090,7 +2092,7 @@ input[type=month].form-control {
 
 select.form-control:focus::-ms-value {
   color: #495057;
-  background-color: #fff;
+  background-color: #d9d9d9;
 }
 
 .form-control-file,
@@ -2891,13 +2893,13 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-  color: #f8f9fa;
-  border-color: #f8f9fa;
+  color: #51A3A8;
+  border-color: #51A3A8;
 }
 .btn-outline-light:hover {
   color: #212529;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  background-color: #51A3A8;
+  border-color: #51A3A8;
 }
 .btn-outline-light:focus, .btn-outline-light.focus {
   box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
@@ -6138,13 +6140,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  background-color: ##51A3A8 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: #51A3A8 !important;
 }
 
 .bg-secondary {
@@ -9836,11 +9838,11 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #fff !important;
+  color: #d9d9d9 !important;
 }
 
 .text-primary {
-  color: #1abc9c !important;
+  color: #51A3A8 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10082,10 +10084,13 @@ h3 {
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #fff;
+  background-color: #d9d9d9;
+}
+.divider-custom.divider-light1 .divider-custom-line {
+  background-color: #51A3A8;
 }
 .divider-custom.divider-light .divider-custom-icon {
-  color: #fff !important;
+  color: #d9d9d9 !important;
 }
 
 .btn-xl {
@@ -10250,7 +10255,7 @@ h3 {
 
 .floating-label-form-group {
   position: relative;
-  border-bottom: 1px solid #e9ecef;
+  border-bottom: 1px solid #3c6e71;
 }
 .floating-label-form-group input,
 .floating-label-form-group textarea {

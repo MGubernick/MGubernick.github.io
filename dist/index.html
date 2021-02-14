@@ -50,7 +50,7 @@
             <!-- Icon Divider-->
             <div class="divider-custom divider-secondary">
                 <div class="divider-custom-line bg-secondary"></div>
-                <div class="divider-custom-icon"><i class="fas fa-spinner text-secondary"></i></div>
+                <div class="divider-custom-icon"><i class="fas fa-chevron-left text-secondary"></i> <i class="fas fa-chevron-right text-secondary"></i></div>
                 <div class="divider-custom-line bg-secondary"></div>
             </div>
             <!-- Masthead Subheading-->
@@ -66,7 +66,7 @@
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-spinner text-#d9d9d9"></i></div>
+                <div class="divider-custom-icon"><i class="fas fa-chevron-left text-#d9d9d9"></i> <i class="fas fa-chevron-right text-#d9d9d9"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
             <!-- About Section Content-->
@@ -91,22 +91,22 @@
     <!--Tech Carousel-->
     <section  class="page-section bg-dark" id="tech">
         <!-- Tech Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-primary mb-0">Technology</h2>
+        <h2 class="page-section-heading text-center text-uppercase change-text-color mb-0">Technology</h2>
         <!-- Icon Divider-->
-        <div class="divider-custom">
-            <div class="divider-custom-line bg-primary"></div>
-            <div class="divider-custom-icon"><i class="fas fa-spinner text-primary"></i></div>
-            <div class="divider-custom-line bg-primary"></div>
+        <div class="divider-custom divider-light1">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-chevron-left change-text-color"></i> <i class="fas fa-chevron-right change-text-color"></i></div>
+            <div class="divider-custom-line"></div>
         </div>
         <div id="carouselExampleIndicators" class="carousel slide">
             <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active tik bg-primary"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1" class="tik bg-primary"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active tik bg-info"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1" class="tik bg-info"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active" id="languages-tab-carousel">
                     <div class="container">
-                        <h2 class="text-center text-uppercase text-primary mb-0"><u>Languages</u></h2>
+                        <h2 class="text-center text-uppercase change-text-color mb-0"><u>Languages</u></h2>
                         <br/>
                         <div class="row justify-content-center" id="language-needs-margin">
                             <div class="col-md-6 col-lg-4 mb-5" title="html5" id="html5logo">
@@ -132,7 +132,7 @@
                 </div>
                 <div class="carousel-item" id="library-framework-tab-carousel">
                         <div class="container">
-                            <h2 class="text-center text-uppercase text-primary mb-0"><u>Libraries, Frameworks & More!</u></h2>
+                            <h2 class="text-center text-uppercase change-text-color mb-0"><u>Libraries, Frameworks & More!</u></h2>
                             <br/>
                             <div class="row justify-content-center" id="library-framework-needs-margin">
                                 <div class="col-md-6 col-lg-3 mb-5" title="GitHub" id="githublogo">
@@ -186,7 +186,7 @@
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-spinner text-#d9d9d9"></i></div>
+                <div class="divider-custom-icon"><i class="fas fa-chevron-left text-#d9d9d9"></i> <i class="fas fa-chevron-right text-#d9d9d9"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
             <!-- Portfolio Grid Items-->
@@ -204,31 +204,6 @@
                         <img class="img-fluid" id="code-laborate-img" src="https://imgur.com/65fdCTG.png" alt="Image of code-laborate application" />
                     </div>
                 </div>
-                <!-- Portfolio Item 4-->
-                <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white">
-                                <h3>Check The Temp!🌤</h3>
-                                <h6>- A Front-End React Application -</h6>
-                            </div>
-                        </div>
-                        <img class="img-fluid" id="check-the-temp-img" src="https://imgur.com/Fm7SzBI.png" alt="Image of check-the-temp application" />
-                    </div>
-                </div>
-                <!-- Portfolio Item 5-->
-                <div class="col-md-6 col-lg-4 mb-3 mb-md-0">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white">
-                                <h3>Beer-Browser</h3>
-                                <h3>(Beans Love Beer)</h3>
-                                <h6>- A Front-End React Application -</h6>
-                            </div>
-                        </div>
-                        <img class="img-fluid" id="beer-browser-img" src="https://imgur.com/ItNiCAC.png" alt="Image of the Beans Love Beer Application" />
-                    </div>
-                </div>
                 <!-- Portfolio Item 2-->
                 <div class="col-md-6 col-lg-4 mb-3">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
@@ -243,6 +218,18 @@
                         <img class="img-fluid" id="crumble-img" src="https://imgur.com/4oSrRMs.png" alt="Image of Crumble Application" />
                     </div>
                 </div>
+                <!-- Portfolio Item 4-->
+                <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h3>Check The Temp!🌤</h3>
+                                <h6>- A Front-End React Application -</h6>
+                            </div>
+                        </div>
+                        <img class="img-fluid" id="check-the-temp-img" src="https://imgur.com/Fm7SzBI.png" alt="Image of check-the-temp application" />
+                    </div>
+                </div>
                 <!-- Portfolio Item 1-->
                 <div class="col-md-6 col-lg-4 mb-3">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
@@ -253,6 +240,19 @@
                             </div>
                         </div>
                         <img class="img-fluid" id="tic-tac-toe-img" src="https://imgur.com/U9ltgr5.png" alt="Image of tic-tac-toe application" />
+                    </div>
+                </div>
+                <!-- Portfolio Item 5-->
+                <div class="col-md-6 col-lg-4 mb-3 mb-md-0">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <h3>Beer-Browser</h3>
+                                <h3>(Beans Love Beer)</h3>
+                                <h6>- A Front-End React Application -</h6>
+                            </div>
+                        </div>
+                        <img class="img-fluid" id="beer-browser-img" src="https://imgur.com/ItNiCAC.png" alt="Image of the Beans Love Beer Application" />
                     </div>
                 </div>
                 <!-- Portfolio Item 6-->
@@ -277,7 +277,7 @@
             <!-- Icon Divider-->
             <div class="divider-custom divider-dark">
                 <div class="divider-custom-line bg-secondary"></div>
-                <div class="divider-custom-icon"><i class="fas fa-spinner text-secondary"></i></div>
+                <div class="divider-custom-icon"><i class="fas fa-chevron-left text-secondary"></i> <i class="fas fa-chevron-right text-secondary"></i></div>
                 <div class="divider-custom-line bg-secondary"></div>
             </div>
             <!-- Footer Social Icons-->
@@ -338,8 +338,8 @@
     </footer>
 
     <!-- Copyright Section-->
-    <div class="copyright py-4 text-center">
-        <div class="container"><small>Copyright © MGubernick 2020</small></div>
+    <div class="copyright py-1 text-center">
+        <div class="container"><small><i class="fas fa-chevron-left"></i> <i class="fas fa-chevron-right"></i> Copyright © MGubernick 2021 <i class="fas fa-chevron-left"></i> <i class="fas fa-chevron-right"></i></small></div>
     </div>
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
     <div class="scroll-to-top d-lg-none position-fixed">
@@ -352,29 +352,29 @@
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    <span aria-hidden="true"><i class="fas fa-times text-primary"></i></span>
                 </button>
                 <div class="modal-body text-center modal-one modal-bg">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-primary text-uppercase modal-one mb-0" id="portfolioModal1Label">Tic-Tac-Toe Game!</h2>
+                                <h2 class="portfolio-modal-title text-primary text-uppercase modal-one mb-3" id="portfolioModal1Label">Tic-Tac-Toe Game!</h2>
                                 <h5 class="portfolio-modal text-primary text-uppercase modal-one mb-0">- Front-End Application -</h5>
                                 <!-- Icon Divider-->
-                                <div class="divider-custom">
+                                <div class="divider-custom divider-light1">
                                     <div class="divider-custom-line bg-primary"></div>
-                                    <div class="divider-custom-icon"><i class="fas fa-spinner modal-text"></i></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-chevron-left change-text-color"></i> <i class="fas fa-chevron-right change-text-color"></i></div>
                                     <div class="divider-custom-line bg-primary"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
                                 <img class="img-fluid rounded mb-5" id="tic-tac-toe-modal-img" src="https://imgur.com/cvJE4Ny.png" alt="Tic-Tac-Toe Image" />
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">This is my rendition of the classic game, Tic-Tac-Toe with a fun new look! Challenge your friends and see who can win the most games! This application was built using HTML/CSS, Bootstrap, Javascript, jQuery, AJAX and a pre-developed Game API</p>
-                                <a class="btn btn-xl btn-outline-dark bg-primary" href="https://github.com/MGubernick/tic-tac-toe-mg" target="_blank">
+                                <a class="btn btn-xl btn-outline-light bg-primary" href="https://github.com/MGubernick/tic-tac-toe-mg" target="_blank">
                                     Look at the Repo!
                                 </a>
-                                <a class="btn btn-xl btn-outline-dark bg-primary" href="https://mgubernick.github.io/tic-tac-toe-mg/" target="_blank">
+                                <a class="btn btn-xl btn-outline-light bg-primary" href="https://mgubernick.github.io/tic-tac-toe-mg/" target="_blank">
                                     Play The Game!
                                 </a>
                             </div>
@@ -389,19 +389,19 @@
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    <span aria-hidden="true"><i class="fas fa-times text-primary"></i></span>
                 </button>
                 <div class="modal-body text-center modal-one modal-bg">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-primary text-uppercase mb-0" id="portfolioModal2Label">Crumble!</h2>
+                                <h2 class="portfolio-modal-title text-primary text-uppercase mb-3" id="portfolioModal2Label">Crumble!</h2>
                                 <h5 class="portfolio-modal text-primary text-uppercase modal-one mb-0">- Full-Stack Application -</h5>
                                 <!-- Icon Divider-->
-                                <div class="divider-custom">
+                                <div class="divider-custom divider-light1">
                                     <div class="divider-custom-line bg-primary"></div>
-                                    <div class="divider-custom-icon"><i class="fas fa-spinner text-primary"></i></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-chevron-left text-primary"></i> <i class="fas fa-chevron-right text-primary"></i></div>
                                     <div class="divider-custom-line bg-primary"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
@@ -411,13 +411,13 @@
                                      to share their favorite cookie recipes with others, all in one place! This application was built using HTML/CSS, Bootstrap,
                                      Javascript, jQuery, AJAX and a custom built Crumble API.  The Crumble API was built using Javascript, Express,
                                      mongoose and cors.</p>
-                                 <a class="btn btn-xl btn-outline-dark bg-primary" href="https://github.com/MGubernick/crumble-front-end-mg" target="_blank">
+                                 <a class="btn btn-xl btn-outline-light bg-primary" href="https://github.com/MGubernick/crumble-front-end-mg" target="_blank">
                                      Look at the Front-End Repo!
                                  </a>
-                                 <a class="btn btn-xl btn-outline-dark bg-primary" href="https://github.com/MGubernick/crumble-API-mg" target="_blank">
+                                 <a class="btn btn-xl btn-outline-light bg-primary" href="https://github.com/MGubernick/crumble-API-mg" target="_blank">
                                      Look at the API Repo!
                                  </a>
-                                 <a class="btn btn-xl btn-outline-dark bg-primary" href="https://mgubernick.github.io/crumble-front-end-mg/" target="_blank">
+                                 <a class="btn btn-xl btn-outline-light bg-primary" href="https://mgubernick.github.io/crumble-front-end-mg/" target="_blank">
                                      Check out the App!
                                  </a>
                             </div>
@@ -432,19 +432,19 @@
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    <span aria-hidden="true"><i class="fas fa-times text-primary"></i></span>
                 </button>
                 <div class="modal-body text-center modal-bg">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-primary text-uppercase mb-0" id="portfolioModal3Label">Code-laborate</h2>
+                                <h2 class="portfolio-modal-title text-primary text-uppercase mb-3" id="portfolioModal3Label">Code-laborate</h2>
                                 <h5 class="portfolio-modal text-primary text-uppercase mb-0">- Team Built, Full-Stack React Application -</h5>
                                 <!-- Icon Divider-->
-                                <div class="divider-custom">
+                                <div class="divider-custom divider-light1">
                                     <div class="divider-custom-line bg-primary"></div>
-                                    <div class="divider-custom-icon"><i class="fas fa-spinner text-primary"></i></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-chevron-left text-primary"></i> <i class="fas fa-chevron-right text-primary"></i></div>
                                     <div class="divider-custom-line bg-primary"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
@@ -455,13 +455,13 @@
                                       with comments of their own. This was a collaborative project built using HTML/CSS, Bootstrap,
                                       Javascript, React and Axios on the front end. We also built a custom API for the application using JavaScript, Express
                                       MongoDB, Mongoose, Passport, bcrypt and crypto.</p>
-                              <a class="btn btn-xl btn-outline-dark bg-primary" href="https://github.com/MGubernick/code-laborate-front-end" target="_blank">
+                              <a class="btn btn-xl btn-outline-light bg-primary" href="https://github.com/MGubernick/code-laborate-front-end" target="_blank">
                                   Look at the Front-End Repo!
                               </a>
-                              <a class="btn btn-xl btn-outline-dark bg-primary" href="https://github.com/MGubernick/code-laborate-API" target="_blank">
+                              <a class="btn btn-xl btn-outline-light bg-primary" href="https://github.com/MGubernick/code-laborate-API" target="_blank">
                                   Look at the API Repo!
                               </a>
-                              <a class="btn btn-xl btn-outline-dark bg-primary" href="https://super-props.github.io/code-laborate-front-end/#/sign-in" target="_blank">
+                              <a class="btn btn-xl btn-outline-light bg-primary" href="https://super-props.github.io/code-laborate-front-end/#/sign-in" target="_blank">
                                   Check out the App!
                               </a>
                             </div>
@@ -476,19 +476,19 @@
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    <span aria-hidden="true"><i class="fas fa-times text-primary"></i></span>
                 </button>
                 <div class="modal-body text-center modal-bg">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-primary text-uppercase mb-0" id="portfolioModal4Label">Check The Temp!🌤</h2>
+                                <h2 class="portfolio-modal-title text-primary text-uppercase mb-3" id="portfolioModal4Label">Check The Temp!🌤</h2>
                                 <h5 class="portfolio-modal text-primary text-uppercase mb-0">- Front-End React Application -</h5>
                                 <!-- Icon Divider-->
-                                <div class="divider-custom">
+                                <div class="divider-custom divider-light1">
                                     <div class="divider-custom-line bg-primary"></div>
-                                    <div class="divider-custom-icon"><i class="fas fa-spinner text-primary"></i></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-chevron-left text-primary"></i> <i class="fas fa-chevron-right text-primary"></i></div>
                                     <div class="divider-custom-line bg-primary"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
@@ -496,10 +496,10 @@
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5 modal-one">Check The Temp! is a simple weather app built in React that allows the user to check the weather in their area based on their Zipcode.
                                     This app was built using HTML/CSS/SCSS, Bootstrap/React Bootstrap, Javascript, React.js, Axios and OpenWeatherMap API.</p>
-                                <a class="btn btn-xl btn-outline-dark bg-primary" href="https://github.com/MGubernick/check-the-temp" target="_blank">
+                                <a class="btn btn-xl btn-outline-light bg-primary" href="https://github.com/MGubernick/check-the-temp" target="_blank">
                                     Look at the Repo!
                                 </a>
-                                <a class="btn btn-xl btn-outline-dark bg-primary" href="https://mgubernick.github.io/check-the-temp/#/" target="_blank">
+                                <a class="btn btn-xl btn-outline-light bg-primary" href="https://mgubernick.github.io/check-the-temp/#/" target="_blank">
                                     Check out the App!
                                 </a>
                             </div>
@@ -514,7 +514,7 @@
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    <span aria-hidden="true"><i class="fas fa-times text-primary"></i></span>
                 </button>
                 <div class="modal-body text-center modal-bg">
                     <div class="container">
@@ -522,12 +522,12 @@
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
                                 <h2 class="portfolio-modal-title text-primary text-uppercase mb-0" id="portfolioModal5Label">Beer-Browser</h2>
-                                <h2 class="portfolio-modal text-primary text-uppercase mb-0" >(Beans Love Beer)</h2>
+                                <h2 class="portfolio-modal text-primary text-uppercase mb-3" >(Beans Love Beer)</h2>
                                 <h5 class="portfolio-modal text-primary text-uppercase mb-0">- Front-End React Application -</h5>
                                 <!-- Icon Divider-->
-                                <div class="divider-custom">
+                                <div class="divider-custom divider-light1">
                                     <div class="divider-custom-line bg-primary"></div>
-                                    <div class="divider-custom-icon"><i class="fas fa-spinner text-primary"></i></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-chevron-left text-primary"></i> <i class="fas fa-chevron-right text-primary"></i></div>
                                     <div class="divider-custom-line bg-primary"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
@@ -535,10 +535,10 @@
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5 modal-one">My beer-browser (Beans Love Beer) allows the user to search for a variety of beers provided by the punkAPI beer list.
                                     This app was built using HTML/CSS, Bootstrap/React-Bootstrap, Javascript, React.js, Axios and  the punkapi from punkapi.com</p>
-                                <a class="btn btn-xl btn-outline-dark bg-primary" href="https://github.com/MGubernick/beer-browser-mg" target="_blank">
+                                <a class="btn btn-xl btn-outline-light bg-primary" href="https://github.com/MGubernick/beer-browser-mg" target="_blank">
                                     Look at the Repo!
                                 </a>
-                                <a class="btn btn-xl btn-outline-dark bg-primary" href="https://mgubernick.github.io/beer-browser-mg/#/index" target="_blank">
+                                <a class="btn btn-xl btn-outline-light bg-primary" href="https://mgubernick.github.io/beer-browser-mg/#/index" target="_blank">
                                     Check out the App!
                                 </a>
                             </div>
@@ -562,7 +562,7 @@
                                 <!-- Portfolio Modal - Title-->
                                 <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal6Label">Submarine</h2>
                                 <!-- Icon Divider-->
-                                <div class="divider-custom">
+                                <div class="divider-custom divider-light1">
                                     <div class="divider-custom-line"></div>
                                     <div class="divider-custom-icon"><i class="fas fa-spinner"></i></div>
                                     <div class="divider-custom-line"></div>

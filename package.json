@@ -25,7 +25,7 @@
     ],
     "homepage": "https://mgubernick.github.io/",
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Matt Gubernick",
     "dependencies": {
         "bootstrap": "4.5.3"
     },

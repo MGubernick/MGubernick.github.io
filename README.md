@@ -3,8 +3,8 @@
 This Repository is for Matt Gubernick's Portolio! If have any questions, please feel free to reach out!
 
 ## Links & Resources Used:
-[bootstrap](https://getbootstrap.com/)
-[stackOverflow](stackOverflow.com)
+- [bootstrap](https://getbootstrap.com/)
+- [stackOverflow](stackOverflow.com)
 
 ## About Me:
 My name is Matt Gubernick,  I’m a full-stack web developer and software engineer.  I have a background in Post Production Audio Engineering & Sound Design. I most recently worked in the hospitality industry creating and facilitating meetings and events for both individuals and big companies. These industries merged my interests in collaboration, problem solving and efficiency, continual learning and creative thinking. I was able to work with coworkers and clients to turn vision into reality and problem solve creatively, efficiently, and in real time. The time spent in these prior industries and experiences and skills  gained in the  General Assembly program helped solidify my excitement for pursuing a new adventure in the world of development.
@@ -36,8 +36,8 @@ I hope to work for  a company where I can not only continue to grow as a develop
 
 
 ## Get In Touch With Me:
-[LinkedIn](https://www.linkedin.com/in/matthewgubernick/ "linkedIn Link")
-[GitHub](https://github.com/MGubernick "github link")
+- [LinkedIn](https://www.linkedin.com/in/matthewgubernick/ "linkedIn Link")
+- [GitHub](https://github.com/MGubernick "github link")
 
 ## Technologies Used For Creation Of Portolio:
 - HTML/CSS

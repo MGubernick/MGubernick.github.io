@@ -1,7 +1,9 @@
 'use strict'
 
 $(() => {
-    $('#contactForm').on('submit').trigger('reest')
+    $('#sendMessageButton').on('submit', function () {
+        $('#contactForm').trigger('reest')
+    })
 }
 //     $(
 //         "#contactForm, #contactForm button"

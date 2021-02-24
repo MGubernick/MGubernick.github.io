@@ -1,6 +1,6 @@
 /*!
-    * Start Bootstrap - Portfolio-MG v6.0.5 (https://startbootstrap.com/theme/freelancer)
-    * Copyright 2013-2021 Start Bootstrap
+    * Start Bootstrap - Portfolio-MG v6.0.5 (https://mgubernick.github.io/)
+    * Copyright 2013-2021 Matt Gubernick
     * Licensed under MIT (https://github.com/StartBootstrap/Portfolio-MG/blob/master/LICENSE)
     */
     (function($) {

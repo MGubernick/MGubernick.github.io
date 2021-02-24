@@ -366,7 +366,9 @@
                     <button type="submit" class="btn btn-xl btn-secondary" id="sendMessageButton">Send</button>
                 </div>
                 <script>
-                    $('#newContactForm').onSubmit().trigger('reset')
+                    $('#newContactForm').on('submit', function () {
+                        $('#newContactForm').trigger('reset')
+                    })
                 </script>
             </form>
         </div>

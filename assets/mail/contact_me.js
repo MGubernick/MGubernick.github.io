@@ -43,7 +43,7 @@ $(function () {
                     );
                     $("#success > .alert-success").append("</div>");
                     //clear all fields
-                    $("#contactForm").trigger("reset");
+                    $("#newContactForm").trigger("reset");
                 },
                 error: function () {
                     // Fail message

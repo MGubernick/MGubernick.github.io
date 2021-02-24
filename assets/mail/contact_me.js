@@ -1,11 +1,7 @@
 'use strict'
 
-const clear = () => {
-    $('#contactForm').trigger('reset')
-}
-
 $(() => {
-    $('#contactForm').on('submit', clear)
+    $('#contactForm').on('submit').trigger('reest')
 }
 //     $(
 //         "#contactForm, #contactForm button"
